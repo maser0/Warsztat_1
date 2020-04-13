@@ -30,7 +30,7 @@ public class Main2 {
 
         int count = 0;
         System.out.println("Wprowadz 6 liczb: ");
-        System.out.println(Arrays.toString(arrayComp));
+        //System.out.println(Arrays.toString(arrayComp));
         while (count < 6) {
             System.out.println("Wprowadz " + (count + 1) + " liczbę: ");
             while (!scanner.hasNextInt()) {
